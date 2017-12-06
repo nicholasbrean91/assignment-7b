@@ -1,0 +1,164 @@
+[
+  {
+    "selected" : false,
+    "frame" : "{{0, 0}, {480, 320}}",
+    "class" : "View",
+    "nodes" : [
+      {
+        "selected" : false,
+        "frame" : "{{63, 69}, {244, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Enter radius here if needed",
+          "secure" : false,
+          "font_size" : 17,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "7C57B60D-440D-4539-A0FB-393C1419FBDF",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "radius_textfield",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{63, 149}, {244, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Enter the base here",
+          "font_size" : 17,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "BA3EFB0C-F3B9-4109-B236-08C4136843C7",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "base_textfield",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{63, 109}, {244, 32}}",
+        "class" : "TextField",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "placeholder" : "Enter the height here",
+          "font_size" : 17,
+          "frame" : "{{140, 144}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "B01809B3-8779-4B72-9393-4FA7802DF253",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "height_textfield",
+          "font_name" : "<System>"
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{39, 0}, {408, 45}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "8236AEAC-BB84-449E-9454-B18C35D54393",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "enter a shape's details then pic the according shape you specified to calculate area",
+          "name" : "description_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{63, 273}, {334, 32}}",
+        "class" : "Label",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "font_name" : "<System>",
+          "frame" : "{{165, 144}, {150, 32}}",
+          "uuid" : "BA621B56-CFBD-4DE3-A0EA-E100BC7AF3DF",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "",
+          "name" : "output_label",
+          "font_size" : 18
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{51, 220}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "triangle",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "triangle",
+          "uuid" : "D4D5C3B1-9BA4-4753-862C-75367AB5A173",
+          "class" : "Button",
+          "name" : "triangle_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{139, 217}, {80, 35}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "circle",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "circle",
+          "uuid" : "6BA8ABFC-5953-4041-98AF-EB89D0463C7F",
+          "class" : "Button",
+          "name" : "circle_button",
+          "font_size" : 15
+        }
+      },
+      {
+        "selected" : false,
+        "frame" : "{{227, 220}, {80, 32}}",
+        "class" : "Button",
+        "nodes" : [
+
+        ],
+        "attributes" : {
+          "action" : "square",
+          "frame" : "{{200, 144}, {80, 32}}",
+          "title" : "square",
+          "uuid" : "6BA8ABFC-5953-4041-98AF-EB89D0463C7F",
+          "class" : "Button",
+          "name" : "square_button",
+          "font_size" : 15
+        }
+      }
+    ],
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    }
+  }
+]
